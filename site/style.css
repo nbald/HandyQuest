@@ -21,8 +21,8 @@ body {
 
 hr {
   width: 960px;
-  height: 12px;
-  background: url('img/division.png') center center;
+  height: 14px;
+  background-image: url(img/division.png);
 }
 
 .logo{
@@ -69,8 +69,8 @@ position: fixed;
 background-image: url(img/character_1_vignette.png);
 	height: 60px;
 	width: 60px;
-	margin-top: 20px;
-	margin-left: 1110px;
+	top: 20px;
+	right: 20px;
 }
 
 .lieu{
@@ -78,68 +78,77 @@ position: fixed;
 background-image: url(img/lieu_1_vignette.png);
 	height: 60px;
 	width: 60px;
-	margin-top: 100px;
-	margin-left: 1110px;
+	top: 100px;
+	right: 20px;
 }
 
-.Paris{
+.paris{
 	position: fixed;
 background-image: url(img/paris_lazare.png);
 	height: 60px;
 	width: 60px;
-	margin-top: 180px;
-	margin-left: 1110px;
+	top: 180px;
+	right: 20px;
 }
 
 .harley{
-background-image: url(img/character_1_220.png);
 height: 220px;
 width: 220px;
+background: url('img/character_1.png') 0px 0px;
+
 }
 
 .harley:hover{
-background-image: url(img/character_2_220.png);
+background: url('img/character_1.png') 0px 220px;
 height: 220px;
 width: 220px;
 }
 
 .mamie{
-background-image: url(img/character_2_220.png);
 height: 220px;
 width: 220px;
+background: url('img/character_2.png') 0px 0px;
 }
 
 .mamie:hover{
-background-image: url(img/character_3_220.png);
 height: 220px;
 width: 220px;
+background: url('img/character_2.png') 0px 220px;
 }
 
 .bat{
-background-image: url(img/character_3_220.png);
 height: 220px;
 width: 220px;
+background: url('img/character_3.png') 0px 0px;
 }
 
 .bat:hover{
-background-image: url(img/character_2_220.png);
 height: 220px;
 width: 220px;
+background: url('img/character_3.png') 0px 220px;
 }
 
 .surprise{
-background-image: url(img/character_4_220.png);
 height: 220px;
 width: 220px;
+background: url('img/character_4.png') 0px 0px;
 }
 
 .surprise:hover{
-background-image: url(img/character_2_220.png);
 height: 220px;
 width: 220px;
+background: url('img/character_4.png') 0px 220px;
 }
 
 .tableau{
 	margin-top:30px;
 }
 
+
+.defi a:hover {
+	color:#313131;
+} 
+
+.defi a {
+	color:white;
+}
