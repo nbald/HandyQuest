@@ -1,0 +1,26 @@
+body {
+  background-image: url('img/background.png');
+  text-align: center;
+  -webkit-transition: left 2s ease;
+}
+
+#intro {
+  display: block;
+  width: 970px;
+  height: 617px;
+  background: url('img/intro_hero_sprite.png') 0px 0px;
+}
+
+#intro:hover {
+  background: url('img/intro_hero_sprite.png') 0px 617px;
+}
+
+hr {
+  width: 961px;
+  height: 7px;
+  background: url('img/divider.png') center center;
+}
+
+.perso {
+  text-align: center;
+}
