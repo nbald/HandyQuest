@@ -12,34 +12,40 @@
   </head>
   <body>
   <div class="container">
+  
+    <div class="avatar"></div>
+    <div class="lieu"></div>
+    <div class="Paris"></div>
+    
 
-    <img src="img/logo.png">
-    <br>
-    <img src="img/saint-lazare.png" style="margin-top: 20px;">
+    <a href="index.html"><div class="logo"><img src="img/logo.png"></div></a>
+    
+   <div class="choix"><h3>Paris > St Lazare</h3></div>
     
     <hr/>
     
-    <h1>D&eacute;fi en cours...</h1>
+    <div class="tableau"><h1><span>D&eacute;fi en cours...</span></h1></div>
 
 
-    <p><img src="img/ajax-loader.gif"></p>
-    
-    <p><a href="fini.html">fini !</a></p>
-
-    <hr/>
-
+    <div class="tableau">
     <div class="row">
       <table class="span6 offset3"  id="events" style="text-align: center">
       </table>
     </div>
+    </div>
+    
+    <div class="tableau">
+        <p><img src="img/ajax-loader.gif"></p>
+    </div>
+    
+    <div class="tableau"><hr/></div>
+
+<div class="drapeau"><img src="img/drapeau.png" alt="drapeau" width="167" height="34">
+    	<div class="defi"><a href="fini.html">Fini !</a></div>
+    </div>
+    
     
     <script type="text/javascript">
-      // Enable pusher logging - don't include this in production
-      Pusher.log = function(message) {
-	if (window.console && window.console.log) {
-	  window.console.log(message);
-	}
-      };
 
       var pusher = new Pusher('6aaf1315a7140a34788d');
       var channel = pusher.subscribe('handyquest');

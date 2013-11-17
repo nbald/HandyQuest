@@ -2,10 +2,14 @@ body {
   background-image: url('img/background.png');
   text-align: center;
   -webkit-transition: left 2s ease;
+  font-family: 'Lato', sans-serif;
+  color:#313131;
 }
 
 #intro {
   display: block;
+  margin-top: 20px;
+  margin-left: 4px;
   width: 970px;
   height: 617px;
   background: url('img/intro_hero_sprite.png') 0px 0px;
@@ -16,11 +20,126 @@ body {
 }
 
 hr {
-  width: 961px;
-  height: 7px;
-  background: url('img/divider.png') center center;
+  width: 960px;
+  height: 12px;
+  background: url('img/division.png') center center;
+}
+
+.logo{
+	margin-top:20px;
+}
+
+.choix{
+	margin-top: 50px;
 }
 
 .perso {
   text-align: center;
 }
+
+a:hover{
+	text-decoration: none;
+	color:#c81313;
+}
+
+a{
+  color:#313131;
+}
+
+h4{
+line-height: 2em;
+}
+
+span{
+		color:#c81313;
+
+}
+
+.drapeau{
+	margin-top: 40px;
+}
+
+.defi{
+	text-align: center;
+	margin-top: -25px;
+	font-weight: 600;
+}
+.avatar{
+position: fixed;
+background-image: url(img/character_1_vignette.png);
+	height: 60px;
+	width: 60px;
+	margin-top: 20px;
+	margin-left: 1110px;
+}
+
+.lieu{
+position: fixed;
+background-image: url(img/lieu_1_vignette.png);
+	height: 60px;
+	width: 60px;
+	margin-top: 100px;
+	margin-left: 1110px;
+}
+
+.Paris{
+	position: fixed;
+background-image: url(img/paris_lazare.png);
+	height: 60px;
+	width: 60px;
+	margin-top: 180px;
+	margin-left: 1110px;
+}
+
+.harley{
+background-image: url(img/character_1_220.png);
+height: 220px;
+width: 220px;
+}
+
+.harley:hover{
+background-image: url(img/character_2_220.png);
+height: 220px;
+width: 220px;
+}
+
+.mamie{
+background-image: url(img/character_2_220.png);
+height: 220px;
+width: 220px;
+}
+
+.mamie:hover{
+background-image: url(img/character_3_220.png);
+height: 220px;
+width: 220px;
+}
+
+.bat{
+background-image: url(img/character_3_220.png);
+height: 220px;
+width: 220px;
+}
+
+.bat:hover{
+background-image: url(img/character_2_220.png);
+height: 220px;
+width: 220px;
+}
+
+.surprise{
+background-image: url(img/character_4_220.png);
+height: 220px;
+width: 220px;
+}
+
+.surprise:hover{
+background-image: url(img/character_2_220.png);
+height: 220px;
+width: 220px;
+}
+
+.tableau{
+	margin-top:30px;
+}
+
