@@ -2,7 +2,7 @@ body {
   background-image: url('img/background.png');
   text-align: center;
   -webkit-transition: left 2s ease;
-  font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
   color:#313131;
 }
 
@@ -84,7 +84,7 @@ background-image: url(img/lieu_1_vignette.png);
 
 .paris{
 	position: fixed;
-background-image: url(img/paris_lazare.png);
+background-image: url(img/difficulte_vignette.png);
 	height: 60px;
 	width: 60px;
 	top: 180px;
