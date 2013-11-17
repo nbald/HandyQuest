@@ -17,7 +17,12 @@
     <div class="lieu"></div>
     <div class="Paris"></div>
     
-
+    <div class="popup">
+      <h2>Bravo !</h2>
+      <h3>Maintenant, tu peux aider la communaut&eacute; en cartographiant ces obstacles</h3>
+      <h2 id="points"></h2>
+    </div>    
+    
     <a href="index.html"><div class="logo"><img src="img/logo.png"></div></a>
     
    <div class="choix"><h3>Paris > St Lazare</h3></div>
@@ -41,7 +46,7 @@
     <div class="tableau"><hr/></div>
 
 <div class="drapeau"><img src="img/drapeau.png" alt="drapeau" width="167" height="34">
-    	<div class="defi"><a href="fini.html">Fini !</a></div>
+    	<div class="defi"><a href="javascript:void(0)" onclick="fini()">Fini !</a></div>
     </div>
     
     
@@ -56,6 +61,22 @@
 			    "<td>"+data.time+"</td></tr>"
 			    );
       });
+      
+      function fini() {
+	$('.popup').slideDown()
+	setTimeout(function () {
+	  $("#points").html('.');
+	  setTimeout(function () {
+	  $("#points").html('..');
+	    setTimeout(function () {
+	      $("#points").html('...');
+	      setTimeout(function () {
+		  document.location='http://www.openstreetmap.org/edit#map=17/48.87738/2.32459';
+	      }, 2000);
+	    }, 1000);
+	  }, 1000);
+	}, 1000);
+      }
     </script>
     
   </div>
